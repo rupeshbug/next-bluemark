@@ -1,0 +1,53 @@
+/* HomeIntro styles */
+
+.container {
+  padding: 2.5rem 0;
+  letter-spacing: 0.8px;
+}
+
+.intro {
+  width: 50%;
+  text-align: left;
+}
+
+.heading {
+  color: var(--dark-color);
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.description {
+  color: var(--muted-color);
+  margin-bottom: 1.5rem;
+}
+
+.introImg {
+  background-image: url(../public/intro-img.jpg);
+  background-position: right;
+  width: 600px;
+  height: 380px;
+  position: absolute;
+  top: calc(2rem + 10vh);
+  right: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 920px){
+
+  .intro {
+    width: 100%;
+  }
+
+  .introImg {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+
+  .heading {
+    font-size: 2rem;
+  }
+
+}

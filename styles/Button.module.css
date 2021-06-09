@@ -1,0 +1,23 @@
+.btnContained {
+  background-color: var(--theme-color);
+  color: var(--white);
+  margin: 10px;
+}
+
+.btnContained:hover {
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.btnOutlined {
+  border: 1px solid var(--theme-color);
+  color: var(--theme-color);
+  margin: 10px;
+}
+
+.btnOutlined:hover {
+  color: var(--white);
+  background-color: var(--theme-color);
+  transition: 0.3s ease-in-out;
+}
+
