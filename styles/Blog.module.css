@@ -15,7 +15,7 @@
 .cardContainer {
   display: flex;
   justify-content: center;
-  gap: 2rem 1rem;
+  gap: 2rem 1.2rem;
   padding: 1rem 0;
   flex-wrap: wrap;
 }
@@ -25,7 +25,7 @@
   flex-direction: column;
   padding: 1rem;
   position: relative;
-  width: 400px;
+  width: 390px;
   box-shadow: 3px 5px 7px 5px #e0e0e0; 
   border-radius: 5px;
   cursor: pointer;
