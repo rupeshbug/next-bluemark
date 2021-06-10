@@ -1,14 +1,17 @@
 import HomeIntro from '../components/HomeIntro'
+import HomeBanner from '../components/HomeBanner'
 import TechStack from '../components/TechStack'
-import AboutServices from '../components/AboutServices'
+import Customers from '../components/Customers'
+import Services from '../components/Services'
 
 const IndexPage = () => {
   return ( 
     <>
       <HomeIntro />
+      <HomeBanner />
       <TechStack />
-      <AboutServices />
-      <h1>hello</h1>
+      <Customers />
+      <Services />
     </>
    )
 }

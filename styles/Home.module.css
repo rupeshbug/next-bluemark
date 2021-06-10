@@ -32,6 +32,39 @@
   z-index: -1;
 }
 
+/* HomeBanner styles */
+
+.banner {
+  background-image: url(../public/welcomebg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.bannerImg {
+  flex-basis: 50%;
+  padding-right: 1rem;
+}
+
+.bannerContent {
+  flex-basis: 50%;
+  letter-spacing: 0.8px;
+  color: var(--white);
+}
+
+.bannerContent > h1 {
+  font-weight: 400;
+}
+
+.bannerContent > p {
+  color: #eeeeee;
+}
+
 @media screen and (max-width: 920px){
 
   .intro {
@@ -40,6 +73,20 @@
 
   .introImg {
     display: none;
+  }
+
+  .banner {
+    flex-direction: column;
+    margin: -3rem 0 -2rem 0;
+    padding: 3rem 1rem;
+  }
+
+  .bannerImg {
+    padding-top: 3rem;
+  }
+
+  .bannerContent {
+    padding-bottom: 2rem;
   }
 
 }

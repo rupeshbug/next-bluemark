@@ -1,7 +1,7 @@
-import styles from '../styles/AboutServices.module.css'
+import styles from '../styles/Customers.module.css'
 import ImageSlider from './ImageSlider'
 
-const AboutServices = () => {
+const Customers = () => {
   return (
     <section className={styles.container}>
       <div className={styles.header}>
@@ -13,4 +13,4 @@ const AboutServices = () => {
   )
 }
 
-export default AboutServices
+export default Customers
