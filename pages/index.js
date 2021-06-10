@@ -3,6 +3,7 @@ import HomeBanner from '../components/HomeBanner'
 import TechStack from '../components/TechStack'
 import Customers from '../components/Customers'
 import Services from '../components/Services'
+import Blog from '../components/Blog'
 
 const IndexPage = () => {
   return ( 
@@ -12,6 +13,7 @@ const IndexPage = () => {
       <TechStack />
       <Customers />
       <Services />
+      <Blog />
     </>
    )
 }
