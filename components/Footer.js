@@ -34,8 +34,8 @@ const Footer = () => {
           <h2 className={styles.footerHead}>Contact Us</h2>
           <div>
             <h4>Bluesheep Pvt.Ltd.</h4>
-            <p>123 Swayambhu</p>
-            <p>PO Box 456</p>
+            <p>9812345670</p>
+            <p>9876543210</p>
             <p>Kathmandu, Nepal</p>
           </div>
         </div>

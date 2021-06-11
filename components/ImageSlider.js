@@ -35,7 +35,7 @@ const ImageSlider = () => {
           <div className={styles.customerInfo}>
             <h2>Leo Messi</h2>
             <h4>Athelete</h4>
-            <p>I just launched my completely revamped website and couldn’t be any happier with the way my website turned out, and our experience working with Truemark Technology. When I met with them to discuss the project, I was very impressed with how easy they are to communicate with. They understood the requirement in short notice .</p>
+            <p>I just launched my completely revamped website and couldn’t be any happier with the way my website turned out, and our experience working with Blusheep Technology. When I met with them to discuss the project, I was very impressed with how easy they are to communicate with. They understood the requirement in short notice .</p>
             <span>
               <i className="fas fa-quote-right fa-2x"></i>
             </span>
@@ -50,7 +50,7 @@ const ImageSlider = () => {
           <div className={styles.customerInfo}>
             <h2>Cristiano Ronaldo</h2>
             <h4>Athelete</h4>
-            <p>I just launched my completely revamped website and couldn’t be any happier with the way my website turned out, and our experience working with Truemark Technology. When I met with them to discuss the project, I was very impressed with how easy they are to communicate with. They understood the requirement in short notice.</p>
+            <p>I just launched my completely revamped website and couldn’t be any happier with the way my website turned out, and our experience working with Blusheep Technology. When I met with them to discuss the project, I was very impressed with how easy they are to communicate with. They understood the requirement in short notice.</p>
             <span>
               <i className="fas fa-quote-right fa-2x"></i>
             </span>

@@ -10,7 +10,7 @@ const HomeIntro = () => {
         </div>
         <div className={styles.description}>
           <p>
-            Get ready to take your business to the next level. <span>Truemark</span> will help 
+            Get ready to take your business to the next level. <span>Blusheep</span> will help 
             you build <span>world class software</span> for your <span>world class business</span>.
           </p>
           <p>
