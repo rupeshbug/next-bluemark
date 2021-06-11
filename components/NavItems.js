@@ -34,9 +34,9 @@ const NavItems = ({ setShow }) => {
       </div>
       <div className={styles.socialLinks}>
         <h3>Find Us:</h3>
-        <i className="fab fa-facebook fa-2x"></i>
-        <i className="fab fa-twitter-square fa-2x"></i>
-        <i className="fab fa-instagram-square fa-2x"></i>
+        <Link href="/"><i onClick={handleClick} className="fab fa-facebook fa-2x"></i></Link>
+        <Link href="/"><i onClick={handleClick} className="fab fa-instagram-square fa-2x"></i></Link>
+        <Link href="/"><i onClick={handleClick} className="fab fa-linkedin fa-2x"></i></Link>
       </div>
     </div>
   )
