@@ -1,7 +1,7 @@
 .btnContained {
   background-color: var(--theme-color);
   color: var(--white);
-  margin: 10px;
+  margin: 10px 10px 10px 0;
 }
 
 .btnContained:hover {
@@ -12,7 +12,7 @@
 .btnOutlined {
   border: 1px solid var(--theme-color);
   color: var(--theme-color);
-  margin: 10px;
+  margin: 10px 10px 10px 0;
 }
 
 .btnOutlined:hover {
