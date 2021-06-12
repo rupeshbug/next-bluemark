@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '../styles/Services.module.css'
+import styles from '../styles/ServicesHome.module.css'
 
 const services = [
   {
@@ -8,8 +8,8 @@ const services = [
     description: 'Web development is a broad term for the work involved in developing a web site for the internet'
   },
   {
-    img: <Image src='/socialmedia.png' height={100} width={100} />,
-    title: 'social marketing',
+    img: <Image src='/mobile-app.png' height={100} width={100} />,
+    title: 'mobile app development',
     description: 'Social Media Marketing in Nepal Social media marketing, or SMM, is a form of internet marketing that implements various social media networks'
   },
   {
@@ -18,18 +18,18 @@ const services = [
     description: 'When a hosting provider allocates space on a web server for a website to store its files, they are hosting a website'
   },
   {
-    img: <Image src='/web-development.png' height={100} width={100} />,
-    title: 'web development',
+    img: <Image src='/content-creation.jpg' height={100} width={100} />,
+    title: 'content creation',
     description: 'Web development is a broad term for the work involved in developing a web site for the internet'
   },
   {
-    img: <Image src='/socialmedia.png' height={100} width={100} />,
+    img: <Image src='/social-marketing.png' height={100} width={100} />,
     title: 'social marketing',
     description: 'Social Media Marketing in Nepal Social media marketing, or SMM, is a form of internet marketing that implements various social media networks'
   },
   {
-    img: <Image src='/web-hosting.png' height={100} width={100} />,
-    title: 'web hosting',
+    img: <Image src='/it-consulting.jpg' height={100} width={100} />,
+    title: 'it consulting',
     description: 'When a hosting provider allocates space on a web server for a website to store its files, they are hosting a website'
   }
 ]
