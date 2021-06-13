@@ -1,7 +1,9 @@
+import OurTeam from '../components/OurTeam'
+
 const about = () => {
   return (
     <div>
-      <h1>About Page</h1>
+      <OurTeam />
     </div>
   )
 }
