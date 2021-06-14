@@ -45,8 +45,8 @@ const Footer = () => {
           <p>&copy; {currentDate.getFullYear()} Bluesheep Nepal Pvt.Ltd.
           <br />All rights reserved</p>
         </div>
-        <div>
-          <Image src='/logo.svg' height={60} width={150} />
+        <div className={styles.img}>
+          <Link href="/"><a><Image src='/logo.svg' height={60} width={150} /></a></Link>
         </div>
       </section>
     </footer>

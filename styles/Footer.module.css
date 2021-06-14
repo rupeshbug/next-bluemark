@@ -78,6 +78,10 @@
   letter-spacing: 0.8px;
 }
 
+.img {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 760px){
 
   .footer {
