@@ -4,7 +4,7 @@ import styles from '../styles/About.module.css'
 
 const OurTeam = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.teamContainer}>
       <h1>Our Team</h1>
       <div className={styles.ourTeam}>
         

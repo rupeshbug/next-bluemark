@@ -1,10 +1,67 @@
-/* our team */
+/* about us */
 
-.container {
-  margin-top: 2rem;
+.aboutContainer {
+  width: 60%;
+  margin: 0 auto;
 }
 
-.container > h1 {
+.aboutContainer > h1 {
+  color: var(--dark-color);
+  text-align: center;
+}
+
+.about > p {
+  color: var(--dark-color);
+}
+
+/* message */
+
+.messageContainer {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  width: 500px;
+  box-shadow: 3px 5px 7px 5px #e0e0e0; 
+  border-radius: 5px;
+}
+
+.cardMedia {
+  text-align: center;
+}
+
+.cardMedia img {
+  border-radius: 50%;
+}
+
+.details {
+  text-align: center;
+}
+
+.cardText {
+  font-size: 14.5px;
+  color: var(--muted-color);
+}
+
+.cardLinks {
+  display: flex;
+  gap: 1rem
+}
+
+.cardLinks > i {
+  color: var(--theme-color);
+}
+
+/* our team */
+
+.teamContainer > h1 {
   color: var(--dark-color);
   text-align: center;
 }
@@ -78,4 +135,73 @@
 .socialLinks > i:hover{
   background-color: var(--theme-color);
   transition: 0.3s ease-in-out;
+}
+
+/* values */
+
+.valuesContainer {
+  padding: 2rem 0;
+  color: var(--muted-color);
+}
+
+.description {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.values {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.value {
+  width: 30%;
+  padding: 1rem 0.5rem;
+}
+
+.value div i {
+  color: var(--theme-color);
+}
+
+.value > h2 {
+  color: #ff9900;
+}
+
+.value > p {
+  font-size: 15px;
+}
+
+
+/* responsiveness */
+
+@media screen and (max-width: 920px){
+
+  .messageContainer {
+    flex-direction: column;
+  }
+
+  .aboutContainer {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 760px){
+
+  .card {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .values {
+    flex-direction: column;
+    gap: 0rem;
+  }
+
+  .value {
+    width: 100%;
+  }
+
 }
