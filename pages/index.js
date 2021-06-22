@@ -1,6 +1,6 @@
 import HomeIntro from '../components/HomeIntro'
 import HomeBanner from '../components/HomeBanner'
-import TechStack from '../components/TechStack'
+import Profile from '../components/Profile'
 import Customers from '../components/Customers'
 import Services from '../components/Services'
 import Blog from '../components/Blog'
@@ -10,7 +10,7 @@ const IndexPage = () => {
     <>
       <HomeIntro />
       <HomeBanner />
-      <TechStack />
+      <Profile />
       <Customers />
       <Services />
       <Blog />
